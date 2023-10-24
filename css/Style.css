@@ -1,0 +1,77 @@
+footer{
+    background: #100C0C;
+    min-height: 70px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+/*Media cueri*/
+
+@media (max-width: 769px){
+    #Intro, #equipo
+    {
+    width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+#img-equipo{
+    max-height: 30rem !important;
+    width: 60%;
+}
+
+@media (max-width: 576px){
+    #Intro
+    .wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    }
+}
+
+  body {
+    color: white;
+  }
+
+  .text-blanco {
+    color: white;
+  }
+
+  /* Estilo para dispositivos de escritorio */
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 2rem; /* Tamaño de fuente para escritorio */
+    }
+
+    p {
+      font-size: 1.6rem; /* Tamaño de fuente para escritorio */
+    }
+  }
+
+  /* Estilo para iPad */
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      font-size: 1.5rem; /* Tamaño de fuente para iPad */
+    }
+
+    p {
+      font-size: 1.4rem; /* Tamaño de fuente para iPad */
+    }
+  }
+
+  /* Estilo para iPhone */
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 1.3rem; /* Tamaño de fuente para iPhone */
+    }
+
+    p {
+      font-size: 1.2rem; /* Tamaño de fuente para iPhone */
+    }
+  }
