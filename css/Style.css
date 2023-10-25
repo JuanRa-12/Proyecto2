@@ -43,20 +43,21 @@ footer p{
     color: white;
   }
 
-  @media (max-width: 767px) {
-    body {
-        width: 100%; /* Ancho completo */
-        height: auto; /* Altura automática */
-    }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilos para ordenadores */
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Agrega estilos para dispositivos móviles aquí */
+}
+
+/* Estilos específicos para ordenadores */
 @media (min-width: 768px) {
-    body {
-        width: 1080px; /* Ancho fijo para ordenadores */
-        height: 2340px; /* Altura fija para ordenadores */
-        margin: 0 auto; /* Centra el contenido en la ventana del navegador */
-    }
+    /* Agrega estilos para ordenadores aquí */
 }
 
   .card {
