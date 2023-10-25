@@ -49,15 +49,38 @@ footer p{
     margin: 0;
     padding: 0;
 }
-
-/* Estilos específicos para dispositivos móviles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 @media (max-width: 767px) {
-    /* Agrega estilos para dispositivos móviles aquí */
+  body {
+      font-size: 14px;
+  }
+  .introduccion {
+      font-size: 14px !important;
+      padding: 0 !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+      margin-top: 5% !important;
+      margin-bottom: 5% !important;
+      width: 95%;
+  }
 }
 
-/* Estilos específicos para ordenadores */
-@media (min-width: 768px) {
-    /* Agrega estilos para ordenadores aquí */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      font-size: 16px;
+  }
+  .introduccion {
+      margin-left: 10% !important;
+      margin-right: 10% !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  
 }
 
   .card {
