@@ -43,38 +43,21 @@ footer p{
     color: white;
   }
 
-  /* Estilo para dispositivos de escritorio */
-  @media (min-width: 992px) {
-    h1 {
-      font-size: 2rem; /* Tamaño de fuente para escritorio */
-    }
-
-    p {
-      font-size: 1.6rem; /* Tamaño de fuente para escritorio */
-    }
-  }
-
-  /* Estilo para iPad */
-  @media (min-width: 768px) and (max-width: 991px) {
-    h1 {
-      font-size: 1.5rem; /* Tamaño de fuente para iPad */
-    }
-
-    p {
-      font-size: 1.4rem; /* Tamaño de fuente para iPad */
-    }
-  }
-
-  /* Estilo para iPhone */
   @media (max-width: 767px) {
-    h1 {
-      font-size: 1.3rem; /* Tamaño de fuente para iPhone */
+    body {
+        width: 100%; /* Ancho completo */
+        height: auto; /* Altura automática */
     }
+}
 
-    p {
-      font-size: 1.2rem; /* Tamaño de fuente para iPhone */
+/* Estilos para ordenadores */
+@media (min-width: 768px) {
+    body {
+        width: 1080px; /* Ancho fijo para ordenadores */
+        height: 2340px; /* Altura fija para ordenadores */
+        margin: 0 auto; /* Centra el contenido en la ventana del navegador */
     }
-  }
+}
 
   .card {
     border: 1px solid #ddd;
